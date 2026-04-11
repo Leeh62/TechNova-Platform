@@ -1,6 +1,6 @@
-# 🚀 TechNova - Landing Page
+# 🚀 TechNova - Plataforma de Cursos 
 
-Landing page desenvolvida para uma plataforma fictícia de cursos de tecnologia, com foco em conversão, experiência do usuário e design responsivo.
+Desenvolvimento de uma plataforma de cursos fictícia de cursos de tecnologia, com foco em conversão, experiência do usuário e design responsivo.
 
 
 ## 🎯 Objetivo
