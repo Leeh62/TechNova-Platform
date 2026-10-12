@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>TechNova TN</title>
+  <desc>Monograma geométrico TN em lavanda clara, com fundo transparente.</desc>
+  <g fill="#F4EAFF">
+    <path d="M112 142 Q116 136 123 136 H382 L337 184 Q331 190 322 190 H257 V354 Q257 384 228 384 Q197 384 197 354 V190 H83 Q76 190 81 182 Z"/>
+    <path d="M286 202 Q286 196 294 196 H321 Q335 196 347 208 L420 282 V214 Q420 206 428 201 L464 177 Q471 172 471 183 V349 Q471 377 445 377 Q430 377 418 365 L346 291 V355 Q346 364 339 370 L302 396 Q286 407 286 389 Z"/>
+  </g>
+</svg>
