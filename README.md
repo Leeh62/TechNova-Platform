@@ -1,14 +1,14 @@
-# 🚀 TechNova - Plataforma de Cursos 
+# TechNova - Plataforma de Cursos 
 
 Desenvolvimento de uma plataforma de cursos fictícia de cursos de tecnologia, com foco em conversão, experiência do usuário e design responsivo.
 
 
-## 🎯 Objetivo
+## Objetivo
 
 Criar uma interface moderna e funcional simulando um produto real do mercado, aplicando conceitos de UI/UX e desenvolvimento front-end.
 
 
-## 🖥️ Telas Desenvolvidas
+## Telas Desenvolvidas
 
 * Desktop
 * Desktop Wide
@@ -16,7 +16,7 @@ Criar uma interface moderna e funcional simulando um produto real do mercado, ap
 * Mobile
 
 
-## 🎨 Design
+## Design
 
 O layout foi prototipado no Figma com foco em:
 
@@ -26,17 +26,17 @@ O layout foi prototipado no Figma com foco em:
 * Responsividade entre dispositivos
 
 
-## 📸 Preview do Projeto
+## Preview do Projeto
 
-### 💻 Desktop
+### Desktop
 
 ![Desktop](design/Desktop.png)
 
-### 📱 Mobile
+### Mobile
 
 ![Mobile](design/Mobile.png)
 
-## 🛠️ Tecnologias (em desenvolvimento)
+## Tecnologias (em desenvolvimento)
 
 * HTML5 (semântico)
 * CSS3 (Flexbox e Grid)
@@ -44,7 +44,7 @@ O layout foi prototipado no Figma com foco em:
 * JavaScript (futuro)
 
 
-## 🚧 Status do Projeto
+## Status do Projeto
 
 🟡 Em desenvolvimento
 
@@ -52,7 +52,7 @@ Atualmente na fase de prototipação e estruturação.
 Próximo passo: implementação do código.
 
 
-## 📌 Próximos passos
+## Próximos passos
 
 * [ ] Estruturar HTML semântico
 * [ ] Desenvolver o CSS responsivo
