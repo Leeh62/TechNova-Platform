@@ -1,104 +1,158 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Aprenda programação e desenvolva suas habilidades em TI com a TechNova! Explore cursos de tecnologia e impulsione sua carreira."
-    />
-    <meta name="og:title" content="TechNova" />
-    <meta
-      name="og:description"
-      content="Aprenda programação e desenvolva suas habilidades em TI com a TechNova! Explore cursos de tecnologia e impulsione sua carreira."
-    />
-    <meta name="og:image" content="#" />
-    <meta name="og:type" content="website" />
-    <meta name="og:url" content="#" />
 
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="icon" href="./favico.svg" type="xml/svg" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Aprenda programação e desenvolva suas habilidades em TI com a TechNova! Explore cursos de tecnologia e impulsione sua carreira." />
+  <meta name="og:title" content="TechNova" />
+  <meta name="og:description"
+    content="Aprenda programação e desenvolva suas habilidades em TI com a TechNova! Explore cursos de tecnologia e impulsione sua carreira." />
+  <meta name="og:image" content="#" />
+  <meta name="og:type" content="website" />
+  <meta name="og:url" content="#" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lexend:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>TechNova</title>
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <a href="index.html" title="Voltar para a página inicial">TechNova</a>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" href="./favico.svg" type="xml/svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lexend:wght@100..900&display=swap"
+    rel="stylesheet" />
+  <title>TechNova</title>
+</head>
+
+<body>
+  <header class="header-nav">
+    <div class="logo">
+      <a href="index.html" title="Voltar para a página inicial">TechNova</a>
+    </div>
+    <div class="navigation-menu">
+      <label for="menu"><img src="./img/menu-img.png" alt="" /></label>
+      <input id="menu" type="checkbox" hidden />
+
+      <nav>
+        <ul class="links">
+          <li><a href="#" title="Voltar para o início">Início</a></li>
+          <li><a href="#" title="Acessar cursos">Cursos</a></li>
+          <li><a href="#" title="Acessar sobre da TechNova">Sobre</a></li>
+          <li><a href="#" title="Acessar contato">Contato</a></li>
+          <li>
+            <a href="#" class="colored-border" aria-label="Acessar conta">
+              <span class="short-text" aria-hidden="true">Conta</span>
+              <span class="long-text" aria-hidden="true">Já possui conta?</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="newsletter">
+      <div class="content">
+        <h1>INSCREVA-SE AGORA</h1>
+        <p>
+          Comece hoje mesmo a sua jornada na tecnologia com planos acessíveis
+          e conteúdos completos.
+        </p>
+
+        <form action="#" method="post">
+          <div class="input-container">
+            <label for="name" class="visually-hidden">Nome</label>
+            <input type="text" name="name" id="name" placeholder="Nome" autocomplete="name" required />
+          </div>
+
+          <div class="input-container">
+            <label for="email" class="visually-hidden">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="E-mail" autocomplete="email" required />
+          </div>
+
+          <button type="submit" class="colored-button">Enviar</button>
+        </form>
       </div>
-      <div class="navigation-menu">
-        <label for="menu"><img src="./img/menu-img.png" alt="" /></label>
-        <input id="menu" type="checkbox" hidden />
 
-        <nav>
-          <ul class="links">
-            <li><a href="#" title="Voltar para o início">Início</a></li>
-            <li><a href="#" title="Acessar cursos">Cursos</a></li>
-            <li><a href="#" title="Acessar sobre da TechNova">Sobre</a></li>
-            <li><a href="#" title="Acessar contato">Contato</a></li>
-            <li>
-              <a href="#" class="colored-border" aria-label="Acessar conta">
-                <span class="short-text" aria-hidden="true">Conta</span>
-                <span class="long-text" aria-hidden="true"
-                  >Já possui conta?</span
-                >
-              </a>
-            </li>
-          </ul>
-        </nav>
+      <div class="img-section">
+        <img src="./img/section-img.png"
+          alt="Ilustração em estilo flat de um homem e uma mulher sentados de costas um para o outro, mexendo no celular e analisando gráficos digitais flutuantes." />
       </div>
-    </header>
-    <main>
-      <section class="newsletter">
-        <div class="content">
-          <h1>INSCREVA-SE AGORA</h1>
+    </section>
+
+    <section class="plans">
+      <header>
+        <div class="text-plan">
+          <h2 class="h2-title">ESCOLHA O PLANO IDEAL PARA VOCÊ</h2>
           <p>
-            Comece hoje mesmo a sua jornada na tecnologia com planos acessíveis
-            e conteúdos completos.
+            Comece hoje mesmo a sua jornada na tecnologia com planos
+            acessíveis e conteúdos completos.
           </p>
+        </div>
+      </header>
 
-          <form action="#" method="post">
-            <div class="input-container">
-              <label for="name" class="visually-hidden">Nome</label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Nome"
-                autocomplete="name"
-                required
-              />
+      <div class="carousel">
+        <div class="carousel-viewport">
+          <article class="plan-card">
+            <h3>PLANO BÁSICO</h3>
+            <p>Ideal para quem está começando do zero</p>
+
+            <div class="plan-description">
+              <ul>
+                <li>
+                  <span>Acesso a cursos introdutórios</span>
+                  <img src="./img/checked-icon.png" alt="" />
+                </li>
+                <li>
+                  <span> Certificado de conclusão </span>
+                  <img src="./img/checked-icon.png" alt="" />
+                </li>
+                <li>
+                  <span>Suporte via comunidade</span>
+                  <img src="./img/checked-icon.png" alt="" />
+                </li>
+              </ul>
+
+              <p class="plan-card-price">R$ 49,90/mês</p>
             </div>
 
-            <div class="input-container">
-              <label for="email" class="visually-hidden">E-mail</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="E-mail"
-                autocomplete="email"
-                required
-              />
+            <a href="#" class="colored-button plan">MATRICULE-SE</a>
+          </article>
+          <!-- <article class="plan-card">
+            <h3>PLANO BÁSICO</h3>
+            <p>Ideal para quem está começando do zero</p>
+
+            <div class="plan-description">
+              <ul>
+                <li>
+                  <span>Acesso a cursos introdutórios</span>
+                  <img src="./img/checked-icon.png" alt="" />
+                </li>
+                <li>
+                  <span> Certificado de conclusão </span>
+                  <img src="./img/checked-icon.png" alt="" />
+                </li>
+                <li>
+                  <span>Suporte via comunidade</span>
+                  <img src="./img/checked-icon.png" alt="" />
+                </li>
+              </ul>
+
+              <p class="plan-card-price">R$ 49,90/mês</p>
             </div>
 
-            <button type="submit" class="colored-button">Enviar</button>
-          </form>
+            <a href="#" class="colored-button plan">MATRICULE-SE</a>
+          </article> -->
         </div>
 
-        <div class="img-section">
-          <img
-            src="./img/section-img.png"
-            alt="Ilustração em estilo flat de um homem e uma mulher sentados de costas um para o outro, mexendo no celular e analisando gráficos digitais flutuantes."
-          />
+        <div class="carousel-indicators" aria-hidden="true">
+          <span class="active"></span>
+          <span></span>
+          <span></span>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
